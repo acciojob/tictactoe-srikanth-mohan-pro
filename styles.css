@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+body{
+	height:100vh;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+}
+ttt{
+	display:flex;
+	align-items:center;
+	
+}
+input, button{
+	display: block;
+}
