@@ -20,8 +20,8 @@ const patterns=[
 let player="X";
 let gameactive=true;
 function addmessage(){
-    const name1=Player1;
-    const name2=Player2;
+    const name1="Player1";
+    const name2="Player2";
     if(player==="X")
         {msg.textContent=name1+", you are up";
         }
@@ -49,8 +49,8 @@ function checkWin(){
 } 
 
 function showWinner(p){
-     const name1=Player1;
-    const name2=Player2;
+     const name1="Player1";
+    const name2="Player2";
     if(p==="X")
         {msg.textContent=name1+" congratulations you won!";
         }
