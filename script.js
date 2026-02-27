@@ -1,6 +1,6 @@
 //your JS code here. If required.
-const player1=document.getElementById("player-1");
-const player2=document.getElementById("player-2");
+const player1=document.getElementById("player1");
+const player2=document.getElementById("player2");
 const grid=document.querySelector(".board");
 const start=document.getElementById("submit");
 const startScreen=document.getElementsByClassName("start-screen")[0];
@@ -23,10 +23,10 @@ function addmessage(){
     const name1=player1.value||"X";
     const name2=player2.value||"O";
     if(player==="X")
-        {msg.textContent=name1+", you're up";
+        {msg.textContent=name1+", you are up";
         }
     else{
-        msg.textContent=name2+", you're up";
+        msg.textContent=name2+", you are up";
     }
 }
 start.addEventListener("click",function(){
