@@ -22,7 +22,7 @@ let gameactive=true;
 function addmessage(){
     const name1="Player1";
     const name2="Player2";
-    if(player==="X")
+    if(player==="x")
         {msg.textContent=name1+", you're up";
         }
     else{
