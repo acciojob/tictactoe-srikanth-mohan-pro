@@ -17,7 +17,7 @@ const patterns=[
     [1,5,9],
     [3,5,7]
 ];
-let player="X";
+let player="x";
 let gameactive=true;
 function addmessage(){
     const name1="Player1";
@@ -51,7 +51,7 @@ function checkWin(){
 function showWinner(p){
      const name1="Player1";
     const name2="Player2";
-    if(p==="X")
+    if(p==="x")
         {msg.textContent=name1+" congratulations you won!";
         }
     else{
@@ -66,7 +66,7 @@ resetbtn.addEventListener("click",function(){
         cell.classList.remove("winner-cell");
     });
     gameactive=true;
-    player="X";
+    player="x";
     msg.classList.remove("win");
     addmessage();
 
@@ -91,7 +91,7 @@ grid.addEventListener("click",function(e){
         return;
     }
 
-    player= player==="X"?"O":"X";
+    player= player==="x"?"o":"x";
     addmessage();
 });
 
