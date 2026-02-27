@@ -23,10 +23,10 @@ function addmessage(){
     const name1="Player1";
     const name2="Player2";
     if(player==="X")
-        {msg.textContent=name1+", you are up";
+        {msg.textContent=name1+", you're up";
         }
     else{
-        msg.textContent=name2+", you are up";
+        msg.textContent=name2+", you're up";
     }
 }
 start.addEventListener("click",function(){
